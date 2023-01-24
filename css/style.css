@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Silkscreen";
+  background: #fcfefe;
+}
+
+#conteiner {
+  width: 810px;
+  height: 650px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* inicio topo */
+#navbar {
+  margin: 5px;
+  width: 600px;
+  height: 50px;
+  float: right;
+}
+
+#navbar ul {
+  display: inline-flex;
+  height: 100%;
+  font-size: 0.84em;
+  border-radius: 20px;
+}
+
+#navbar ul a {
+  font-size: 1em;
+  display: block;
+  padding: 0.1em 3.04em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 2px solid #6e2548;
+  border-radius: 20px 20px 0px 20px;
+  background: #ffb8c4;
+  margin: 5px;
+}
+
+/* fim topo */
+
+/* inicio lateral */
+.conteudo-lateral ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#lateral {
+  width: 200px;
+  height: 551px;
+  border-radius: 20px;
+}
+
+#profile {
+  margin: 5px 5px;
+  height: 200px;
+  background: url(../img/profile.png) no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border: 2px solid #6e2548;
+}
+
+#lateral h1 {
+  font-size: 15px;
+  text-align: center;
+}
+
+#lateral p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 190px;
+  height: 1.1em;
+  background-color: #fff;
+  color: #fff;
+  position: relative;
+  border: 2px solid #6e2548;
+}
+
+.progress-bar::before {
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0.1em;
+  top: 0.1em;
+  bottom: 0.1em;
+  width: calc(var(--width, 1) * 1%);
+  min-width: 0.5rem;
+  max-width: calc(80% - 0.9em);
+  background-color: #ffb8c4;
+  padding: 0.25em;
+  height: 4px;
+}
+
+.gif {
+  margin-top: 15px;
+  height: 99px;
+  background-size: cover;
+  background: url(../img/gato.gif) no-repeat center;
+  image-orientation: flip;
+}
+/* fim lateral */
+
+/* inicio primeiro conteudo */
+#primeiro {
+  width: 600px;
+  height: 499px;
+  float: right;
+  background: #ffb8c4;
+  border-radius: 20px;
+  margin-top: 1px;
+  border: 2px solid #6e2548;
+}
+
+#primeiro h1 {
+  margin-top: 50px;
+  font-size: 60px;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.conteudo {
+  text-align: center;
+}
+
+.conteudo p {
+  font-size: 15px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* area sobre mim */
+.conteudo-sobre {
+  text-align: center;
+  overflow: auto;
+}
+
+.conteudo-sobre p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.conteudo-sobre p a:hover{
+    color: #fff;
+}
+
+/* area de projetos */
+
+.conteudo-projeto {
+  padding: 60px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Silkscreen";
+  font-size: 22px;
+}
+
+.conteudo-projeto a{
+    font-size: 25px;
+    color: #000;
+}
+
+.caixa1:hover{
+    -webkit-transform: scale(2.2);
+    transform: scale(1.1);
+}
+
+.caixa2:hover{
+    -webkit-transform: scale(2.2);
+    transform: scale(1.1);
+}
+.caixa3:hover{
+    -webkit-transform: scale(2.2);
+    transform: scale(1.1);
+}
+
+.caixa4:hover{
+    -webkit-transform: scale(2.2);
+    transform: scale(1.1);
+}
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4 {
+  width: 200px;
+  height: 125px;
+  text-align: center;
+  padding: 1px;
+}
+
+/* conteudo contato */
+.conteudo-contato {
+  margin-top: 50px;
+}
+
+.contatos ul li {
+  display:inline-block;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  padding: 0px;
+}
+
+.final{
+    margin-top: 200px;
+    margin-right: 10px;
+    text-align: end;
+}
+/* fim contato */
+
+#rodape{
+    text-align: center;
+}
